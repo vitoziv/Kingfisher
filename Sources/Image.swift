@@ -810,7 +810,7 @@ extension Kingfisher where Base: Image {
             NSGraphicsContext.current = context
             return context.cgContext
         #else
-            UIGraphicsBeginImageContextWithOptions(size, false, scale)
+            UIGraphicsBeginImageContextWithOptions(size, true, scale)
             let context = UIGraphicsGetCurrentContext()
             context?.scaleBy(x: 1.0, y: -1.0)
             context?.translateBy(x: 0, y: -size.height)
