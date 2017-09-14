@@ -122,6 +122,9 @@
                 <a href="Extensions/Notification.html">Notification</a>
               </li>
               <li class="nav-group-task">
+                <a href="Extensions/Notification/Name.html">– Name</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Extensions/String.html">String</a>
               </li>
               <li class="nav-group-task">
@@ -168,6 +171,9 @@
                 <a href="Protocols/KingfisherCompatible.html">KingfisherCompatible</a>
               </li>
               <li class="nav-group-task">
+                <a href="Protocols/Placeholder.html">Placeholder</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Protocols/Resource.html">Resource</a>
               </li>
             </ul>
@@ -204,6 +210,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="Structs/Filter.html">Filter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/FormatIndicatedCacheSerializer.html">FormatIndicatedCacheSerializer</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/ImageResource.html">ImageResource</a>
@@ -289,8 +298,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
-
+                        
                         <a href="Extensions/Data.html" class="slightly-smaller">See more</a>
                       </div>
                     </section>
@@ -309,8 +317,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
-
+                        
                         <a href="Extensions/CGSize.html" class="slightly-smaller">See more</a>
                       </div>
                     </section>
@@ -345,7 +352,7 @@
                         <a href="Extensions/Image.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/onevcat/Kingfisher/tree/3.9.1/Sources/Kingfisher.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/onevcat/Kingfisher/tree/3.13.0/Sources/Kingfisher.swift#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -357,9 +364,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:V10Foundation12Notification"></a>
+                    <a name="/"></a>
                     <a name="//apple_ref/swift/Extension/Notification" class="dashAnchor"></a>
-                    <a class="token" href="#/s:V10Foundation12Notification">Notification</a>
+                    <a class="token" href="#/">Notification</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -369,14 +376,6 @@
                       <div class="abstract">
                         
                         <a href="Extensions/Notification.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">struct</span> <span class="kt">Notification</span> <span class="p">:</span> <span class="kt">ReferenceConvertible</span><span class="p">,</span> <span class="kt">Equatable</span><span class="p">,</span> <span class="kt">Hashable</span></code></pre>
-
-                        </div>
                       </div>
                     </section>
                   </div>
@@ -410,7 +409,7 @@
                         <a href="Extensions/ImageView.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/onevcat/Kingfisher/tree/3.9.1/Sources/Kingfisher.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/onevcat/Kingfisher/tree/3.13.0/Sources/Kingfisher.swift#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -463,7 +462,10 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        
+                        <p>URL conforms to <code><a href="Protocols/Resource.html">Resource</a></code> in Kingfisher.
+The <code>absoluteString</code> of this URL is used as <code>cacheKey</code>. And the URL itself will be used as <code>downloadURL</code>.
+If you need customize the url and/or cache key, use <code><a href="Structs/ImageResource.html">ImageResource</a></code> instead.</p>
+
                         <a href="Extensions/URL.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
@@ -532,7 +534,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set image to use from web for a specified state. Deprecated. Use <code>kf</code> namespacing instead.</p>
 
                         <a href="Extensions/UIButton.html" class="slightly-smaller">See more</a>
                       </div>
@@ -544,8 +546,8 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="https://onevcat.com" target="_blank" rel="external">Wei Wang</a>. All rights reserved. (Last updated: 2017-05-13)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2017 <a class="link" href="https://onevcat.com" target="_blank" rel="external">Wei Wang</a>. All rights reserved. (Last updated: 2017-09-12)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>
