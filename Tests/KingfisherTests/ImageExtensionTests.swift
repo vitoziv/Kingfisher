@@ -4,7 +4,7 @@
 //
 //  Created by Wei Wang on 15/10/24.
 //
-//  Copyright (c) 2017 Wei Wang <onevcat@gmail.com>
+//  Copyright (c) 2018 Wei Wang <onevcat@gmail.com>
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -65,8 +65,7 @@ class ImageExtensionTests: XCTestCase {
         XCTAssertEqual(count, 8, "There should be 8 frames.")
 #else
         XCTAssertEqual(image!.kf.images!.count, 8, "There should be 8 frames.")
-        
-        XCTAssertEqualWithAccuracy(image!.kf.duration, 0.8, accuracy: 0.001, "The image duration should be 0.8s")
+        XCTAssertEqual(image!.kf.duration, 0.8, accuracy: 0.001, "The image duration should be 0.8s")
 #endif
     }
     
